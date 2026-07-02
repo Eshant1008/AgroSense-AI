@@ -1,0 +1,33 @@
+# Python Virtual Environment
+env/
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter Notebooks
+*.ipynb
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+data/
+# Ignore Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
