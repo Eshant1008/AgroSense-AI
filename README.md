@@ -1,5 +1,8 @@
 # 🌱 AgroSense AI – Crop Disease Detection System
 
+  <p align="center">
+  <img src="assets/banner.png" alt="AgroSense AI Banner" width="100%">
+  </p>
 ## 🏆 2nd Position Winner – Environment Hackathon 2026
 
 > AI-powered crop disease detection platform using Deep Learning (PyTorch) and FastAPI with a modern React frontend for real-time agricultural diagnosis.
@@ -10,7 +13,7 @@
 ## 🏅 Why AgroSense Stands Out
 
 - Ranked **2nd position** in a competitive Environment Hackathon
-- Built under strict time constraints (6 days)
+- Built under strict time constraints (5 days)
 - Real-world AI application for farmers
 - End-to-end full-stack deployment (AI + Backend + Frontend)
 - Designed for sustainability and SDG goals
@@ -62,7 +65,9 @@ PyTorch Model (MobileNetV2)
 ↓
 PlantVillage Dataset (Training Source)
 ↓
-Prediction + Disease Report
+Prediction Engine
+↓
+AI Crop Disease Report
 
 
 
@@ -97,7 +102,8 @@ Prediction + Disease Report
 
 ## 📊 Model Details
 
-- Architecture: MobileNetV2
+- Architecture: MobileNetV2 (Transfer Learning)
+- Framework: PyTorch 
 - Dataset: PlantVillage Dataset
 - Input Image Size: 224 × 224
 - Output: Multi-class disease classification
@@ -146,7 +152,7 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm run dev
-
+```
 
 📸 Sample Output
 
@@ -157,12 +163,12 @@ npm run dev
 
 🎯 Real-World Impact
 
-- Helps farmers detect diseases early
-- Reduces crop loss
-- Recognized in a university-level hackathon for real-world impact and   innovation
-- Improves agricultural productivity
-- Supports sustainable farming practices
-- Can be extended to IoT-based smart farming systems
+- 🚜 Helps farmers detect diseases early
+- 📉 Reduces crop loss significantlys
+- 🏆 Recognized in a university-level hackathon for real-world impact and innovation
+- 🌾 Improves agricultural productivity
+- 🌱 Supports sustainable farming practices
+- 🤖 Can be extended to IoT-based smart farming systems
 
 👨‍💻 Team
 - Eshant Bhardwaj – Backend, Deep Learning, Model Development
@@ -171,10 +177,10 @@ npm run dev
 
 🚀 Future Improvements
 - Multi-crop generalization model
-- Real-time camera scanning
-- Mobile app integration
-- Weather API integration
+- Mobile app version (Android/iOS)
+- 🌦️ Weather API integration
 - Explainable AI (XAI) for predictions
+- ☁️ Cloud deployment (AWS / Azure)
 
 
 📜 License
