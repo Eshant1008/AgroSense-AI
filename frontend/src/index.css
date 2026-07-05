@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-b from-emerald-50 via-white to-emerald-50 text-slate-900 antialiased;
+  font-family: "Poppins", "Noto Sans Devanagari", "Noto Sans Gujarati", "Noto Sans Tamil", sans-serif;
+  font-size: 17px;
+}
+
+.glass-panel {
+  @apply border border-white/45 bg-white/90 shadow-[0_14px_32px_rgba(15,118,110,0.12)];
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+@media (min-width: 1024px) {
+  .glass-panel {
+    backdrop-filter: blur(6px);
+  }
+}
+
+.label {
+  @apply text-sm font-semibold uppercase tracking-wider text-slate-500;
+}
+
+.value {
+  @apply mt-2 text-base leading-relaxed text-slate-800;
+}
