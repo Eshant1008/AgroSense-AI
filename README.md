@@ -3,6 +3,18 @@
   <p align="center">
   <img src="assets/banner.png" alt="AgroSense AI Banner" width="100%">
   </p>
+
+  <p align="center">
+
+![Hackathon](https://img.shields.io/badge/🥈_Hackathon-2nd_Position_Winner-gold?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</p>
+
 ## 🏆 2nd Position Winner – Environment Hackathon 2026
 
 > AI-powered crop disease detection platform using Deep Learning (PyTorch) and FastAPI with a modern React frontend for real-time agricultural diagnosis.
@@ -55,8 +67,30 @@ The system uses a **MobileNetV2 deep learning model** trained on the PlantVillag
 
 ---
 
-## 🏗️ System Architecture
+## 📸 Application Preview
 
+### 🏠 Home Page
+
+<p align="center">
+<img src="assets/home.png" width="90%">
+</p>
+
+### 📷 Upload Page
+
+<p align="center">
+<img src="assets/upload.png" width="90%">
+</p>
+
+### 🤖 AI Disease Report
+
+<p align="center">
+<img src="assets/report.png" width="90%">
+</p>
+---
+---
+
+## 🏗️ System Architecture
+```text
 Frontend (React)
 ↓
 FastAPI Backend
@@ -69,13 +103,18 @@ Prediction Engine
 ↓
 AI Crop Disease Report
 
-
+```
 
 ---
 
 ## 🧪 Tech Stack
 
 ### AI / ML
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![MobileNetV2](https://img.shields.io/badge/MobileNetV2-CNN-blue?style=for-the-badge)
+![PlantVillage](https://img.shields.io/badge/Dataset-PlantVillage-success?style=for-the-badge)
+
 - PyTorch
 - Torchvision
 - MobileNetV2
@@ -112,7 +151,7 @@ AI Crop Disease Report
 ---
 
 ## 📁 Project Structure
-
+```text
 AgroSense-AI/
 │
 ├── backend/
@@ -128,7 +167,7 @@ AgroSense-AI/
 ├── sample_images/
 └── README.md
 
-
+```
 
 ---
 
